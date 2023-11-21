@@ -1,0 +1,654 @@
+.software-company-website,
+.software-company-website * {
+  box-sizing: border-box;
+}
+.software-company-website {
+  background: #ffffff;
+  width: 1382px;
+  height: 2150px;
+  position: absolute;
+  overflow: hidden;
+  left: 130px; /* Adjust the value as needed to move it to the left */
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+}
+.hero-wrapper-text {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.h-1-primary-text {
+  text-align: center;
+  position: relative;
+}
+.h-1-primary-text-span {
+  color: var(--gray-gray-900, #0055ff);
+  font: var(--headings-lite-h-1, 300 45px/71px "Inter", sans-serif);
+}
+.h-1-primary-text-span2 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(56, 100, 179, 1) 0%,
+    rgba(47, 85, 151, 1) 31%,
+    rgba(236, 115, 255, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: 1000 45px/71px "Inter", sans-serif;
+}
+.h-1-primary-text-span3 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(56, 100, 179, 1) 0%,
+    rgba(47, 85, 151, 1) 31%,
+    rgba(236, 115, 255, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: var(--headings-lite-h-1, 300 45px/71px "Inter", sans-serif);
+}
+.h-1-primary-text-span4 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(56, 100, 179, 1) 0%,
+    rgba(47, 85, 151, 1) 31%,
+    rgba(236, 115, 255, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: 300 50px/68px "Inter", sans-serif; /* Reduced font size */
+}
+
+.h-1-primary-text-span5 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(56, 100, 179, 1) 0%,
+    rgba(47, 85, 151, 1) 31%,
+    rgba(236, 115, 255, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: var(
+    --display-display-dilplay-h-1-bold,
+    800 50px/68px "Inter",
+    sans-serif
+  ); /* Reduced font size */
+}
+
+.h-1-primary-text-span6 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(56, 100, 179, 1) 0%,
+    rgba(47, 85, 151, 1) 31%,
+    rgba(236, 115, 255, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: var(
+    --display-display-dilplay-h-1-bold,
+    800 50px/68px "Inter",
+    sans-serif
+  ); /* Reduced font size */
+}
+
+.span-decorative-text {
+  color: var(--gray-gray-700, #4a5568);
+  text-align: left;
+  font: var(--paragraphs-default-lg, 400 18px/36px "Inter", sans-serif);
+  position: relative;
+  width: 531px;
+  height: 58px;
+}
+.btn-primary {
+  position: relative;
+  background: rgb(248, 248, 248);
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #3864b3 0%, #2f5597 31%, #ec73ff 83%);
+  border-image-slice: 1;
+  border-radius: 5px;
+  padding: 19px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: var(
+    --btn-shadow-box-shadow,
+    0px 4px 49px 0px rgba(0, 0, 0, 0.15)
+  );
+  color: #3f3fe1; /* Set the font color to white */
+  background-clip: text;
+}
+.btn-primary:hover {
+  background: linear-gradient(
+    225deg,
+    rgba(56, 100, 179, 1) 0%,
+    /* Color: #3864B3 */ rgba(47, 85, 151, 1) 31%,
+    /* Color: #2F5597 */ rgba(236, 115, 255, 1) 83% /* Color: #EC73FF */
+  );
+}
+
+.let-s-get-started {
+  color: var(--gray-gray-50, #8f26a9);
+  text-align: left;
+  font: var(--button-text-btn-lg, 600 14px/14px "Inter", sans-serif);
+  position: relative;
+}
+.hero-wrapper-image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.hero-wrapper-image-center {
+  flex-shrink: 0;
+  width: 640px;
+  height: 480px;
+  position: relative;
+}
+.web-development-1 {
+  width: 640px;
+  height: 480px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.heading-h-2-left4 {
+  font-family: "Barlow` , sans-serif;";
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 27%;
+  top: 1145px;
+  font-weight: bold;
+  font: 1000 45px/71px "Inter", sans-serif;
+  background-image: linear-gradient(
+    90deg,
+    rgba(56, 100, 179, 1) 0%,
+    rgba(47, 85, 151, 1) 31%,
+    rgba(236, 115, 255, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frame-54 {
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 650px;
+}
+.frame-53 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1233px;
+  position: relative;
+}
+.way-building-details {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-47 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.build-the-right-team-to-scale {
+  font-family: "Barlow";
+  color: var(--gray-gray-900, #1a202c);
+  text-align: center;
+  font: var(--headings-headings-h-3, 600 28px/136.02% "Inter", sans-serif);
+  position: relative;
+}
+.frame-48 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.finding-the-right-talent-is-not-easy-we-help-you-find-the-talent-that-suits-your-needs-follows-your-processes-and-sticks-with-you-long-term-not-the-case-with-freelancers {
+  color: var(--gray-gray-800, #2d3748);
+  text-align: left;
+  font: var(--paragraphs-para-1, 400 18px/30px "Inter", sans-serif);
+  position: relative;
+  width: 534px;
+  height: 113px;
+}
+.frame-49 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.our-delivery-model-helps-you-cut-costs-and-deliver-within-budget {
+  text-align: left;
+  font: var(--paragraphs-para-1, 400 18px/30px "Inter", sans-serif);
+  position: relative;
+  width: 503px;
+  height: 69px;
+}
+.frame-46 {
+  flex-shrink: 0;
+  width: 18px;
+  height: 1px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-17 {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 10px;
+  flex-shrink: 0;
+  width: 720px;
+  height: 420px;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add a shadow with horizontal and vertical offsets */
+}
+.card-sm {
+  width: 604px;
+  height: 237px;
+  position: absolute;
+  left: 0px;
+  top: 1225px;
+}
+.rectangle-21 {
+  background: var(--gray-gray-50, #fafafa);
+  border-style: solid;
+  border-color: var(--shade-primary-lite-bg, #e7daed);
+  border-width: 1px;
+  width: 604px;
+  height: 237px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-57 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 34px;
+  top: 59px;
+}
+.group-34 {
+  flex-shrink: 0;
+  width: 59px;
+  height: 56px;
+  position: static;
+}
+.rectangle-27 {
+  background: linear-gradient(
+    225deg,
+    rgba(56, 100, 179, 1) 0%,
+    /* Color: #3864B3 */ rgba(47, 85, 151, 1) 31%,
+    /* Color: #2F5597 */ rgba(236, 115, 255, 1) 83% /* Color: #EC73FF */
+  );
+  border-radius: 10px;
+  width: 59px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-56 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.card-main-title {
+  color: var(--gray-gray-900, #1a202c);
+  text-align: left;
+  font: var(--headings-headings-h-4, 600 20px/136.52% "Inter", sans-serif);
+  position: relative;
+  width: 453px;
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code {
+  text-align: left;
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+  position: relative;
+  width: 453px;
+  height: 102px;
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span2 {
+  color: var(
+    --gradient-dark-bg,
+    linear-gradient(225deg, rgba(41, 39, 46, 1) 0%, rgba(39, 39, 46, 1) 100%)
+  );
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span3 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.card-sm2 {
+  width: 604px;
+  height: 237px;
+  position: absolute;
+  left: 640px;
+  top: 1225px;
+}
+.rectangle-272 {
+  background: linear-gradient(
+    225deg,
+    rgba(56, 100, 179, 1) 0%,
+    /* Color: #3864B3 */ rgba(47, 85, 151, 1) 31%,
+    /* Color: #2F5597 */ rgba(236, 115, 255, 1) 83% /* Color: #EC73FF */
+  );
+  border-radius: 10px;
+  width: 59px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span4 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span5 {
+  color: var(
+    --gradient-info-bg,
+    linear-gradient(
+      225deg,
+      rgba(104, 219, 242, 1) 0.009999999747378752%,
+      rgba(80, 156, 245, 1) 100%
+    )
+  );
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+/* .unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span6 {
+    color: var(--gray-gray-700, #4a5568);
+    font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+  } */
+.card-sm3 {
+  width: 604px;
+  height: 237px;
+  position: absolute;
+  left: 640px;
+  top: 1487px;
+}
+.rectangle-273 {
+  background: linear-gradient(
+    225deg,
+    rgba(56, 100, 179, 1) 0%,
+    /* Color: #3864B3 */ rgba(47, 85, 151, 1) 31%,
+    /* Color: #2F5597 */ rgba(236, 115, 255, 1) 83% /* Color: #EC73FF */
+  );
+  border-radius: 10px;
+  width: 59px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span7 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span8 {
+  color: var(
+    --gradient-success-bg,
+    linear-gradient(
+      225deg,
+      rgba(103, 233, 241, 1) 0%,
+      rgba(36, 231, 149, 1) 100%
+    )
+  );
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span9 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.card-sm4 {
+  width: 604px;
+  height: 237px;
+  position: absolute;
+  left: 640px;
+  top: 1748px;
+}
+.rectangle-274 {
+  background: linear-gradient(
+    225deg,
+    rgba(56, 100, 179, 1) 0%,
+    /* Color: #3864B3 */ rgba(47, 85, 151, 1) 31%,
+    /* Color: #2F5597 */ rgba(236, 115, 255, 1) 83% /* Color: #EC73FF */
+  );
+  border-radius: 10px;
+  width: 59px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span10 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span11 {
+  color: var(
+    --gradient-primary-bg,
+    linear-gradient(225deg, rgba(247, 102, 128, 1) 0%, rgba(87, 0, 123, 1) 100%)
+  );
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span12 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.card-sm5 {
+  width: 604px;
+  height: 237px;
+  position: absolute;
+  left: 0px;
+  top: 1748px;
+}
+.rectangle-275 {
+  background: linear-gradient(
+    225deg,
+    rgba(56, 100, 179, 1) 0%,
+    /* Color: #3864B3 */ rgba(47, 85, 151, 1) 31%,
+    /* Color: #2F5597 */ rgba(236, 115, 255, 1) 83% /* Color: #EC73FF */
+  );
+  border-radius: 10px;
+  width: 59px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span13 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span14 {
+  color: var(
+    --gradient-warning-bg,
+    linear-gradient(
+      225deg,
+      rgba(255, 239, 94, 1) 0%,
+      rgba(247, 147, 111, 1) 100%
+    )
+  );
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span15 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.card-sm6 {
+  width: 604px;
+  height: 237px;
+  position: absolute;
+  left: 0px;
+  top: 1487px;
+}
+.rectangle-276 {
+  background: linear-gradient(
+    225deg,
+    rgba(56, 100, 179, 1) 0%,
+    /* Color: #3864B3 */ rgba(47, 85, 151, 1) 31%,
+    /* Color: #2F5597 */ rgba(236, 115, 255, 1) 83% /* Color: #EC73FF */
+  );
+  border-radius: 10px;
+  width: 59px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span16 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span17 {
+  color: var(
+    --gradient-tertiary-bg,
+    linear-gradient(
+      224.47deg,
+      rgba(255, 146, 174, 1) 2.604166604578495%,
+      rgba(255, 61, 154, 1) 100%
+    )
+  );
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.unlike-other-companies-we-are-a-ux-first-development-company-projects-are-driven-by-designers-and-they-make-sure-design-and-experiences-translate-to-code-span18 {
+  color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+}
+.heart-rate-perspective-matte {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 48px;
+  top: 1559px;
+}
+.code-perspective-matte2 {
+  width: 29px;
+  height: 30px;
+  position: absolute;
+  left: 777px;
+  top: 5459px;
+}
+.code-perspective-matte3 {
+  width: 36px;
+  height: 37px;
+  position: absolute;
+  left: 685px;
+  top: 1294px;
+}
+.shield-perspective-matte {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 683px;
+  top: 1554px;
+}
+.padlock-perspective-matte {
+  width: 29px;
+  height: 30px;
+  position: absolute;
+  left: 688px;
+  top: 1820px;
+}
+.success-perspective-matte {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 48px;
+  top: 1820px;
+}
+.rocket-perspective-matte {
+  width: 34px;
+  height: 35px;
+  position: absolute;
+  left: 46px;
+  top: 1294px;
+}
+.footer-section {
+  width: 1440px;
+  height: 0px;
+  position: absolute;
+  left: -56px;
+  top: 4600px;
+}
+.rectangle-34 {
+  background: #ffffff;
+  width: 1440px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-78 {
+  position: absolute;
+  inset: 0;
+}
+._2023-copyright-by-agency-solutions-all-rights-reserved {
+  color: var(--gray-gray-700, #4a5568);
+  text-align: left;
+  font: var(--footer-footer-sm, 400 14px/10px "Inter", sans-serif);
+  position: absolute;
+  left: calc(50% - 175px);
+  top: -2561px;
+}

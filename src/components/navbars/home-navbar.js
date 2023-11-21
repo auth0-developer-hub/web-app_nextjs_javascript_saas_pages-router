@@ -9,7 +9,8 @@ export default function HomeNavBar({
   user_role = "Administrator",
 }) {
   const [mobileView, setMobileView] = useState(false);
-  const is_admin = Boolean(user_role == "Administrator");
+  const is_admin = Boolean(user_role === "Administrator");
+
   return (
     <>
       <nav className="relative px-4 py-4 flex justify-between items-baseline bg-white">
@@ -22,9 +23,7 @@ export default function HomeNavBar({
 
         {/* Mobile Menu */}
         <div
-          className={` w-1/3 items-start flex flex-col  ${
-            mobileView ? "block" : "hidden"
-          }`}
+          className={`w-1/3 items-start flex flex-col ${mobileView ? "block" : "hidden"}`}
         >
           <ul>
             <li>
@@ -45,7 +44,6 @@ export default function HomeNavBar({
               </Link>
             </li>
           </ul>
-          <div></div>
         </div>
 
         <div className="lg:hidden md:hidden flex">
@@ -67,38 +65,12 @@ export default function HomeNavBar({
 
         {/* Regular Menu */}
         <ul
-          className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2
-        lg:flex lg:items-center lg:w-auto lg:space-x-6
-        md:flex md:items-center md:w-auto md:space-x-6
-        align-bottom"
+          className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:items-center lg:w-auto lg:space-x-6 md:flex md:items-center md:w-auto md:space-x-6 align-bottom"
         >
           <div className="flex gap-6 items-center">
-            {/* Center Links */}
-            <li>
-              <Link href="/home" className="hover:underline">
-                Explore
-              </Link>
-            </li>
-            <li>
-              <Link href="/home" className="hover:underline">
-                My Learning
-              </Link>
-            </li>
-            <li>
-              <div className="flex justify-center">
-                <div className="rounded-2xl bg-gray-50 px-4 ring-2 ring-gray-200 focus-within:ring-[#EC0B5C] w-60">
-                  <input
-                    type="search"
-                    className="my-0 border-none bg-transparent outline-none focus:outline-none w-60 py-1"
-                    id="searchBar"
-                    placeholder="Start your search"
-                  />
-                </div>
-              </div>
-            </li>
             {is_admin && (
-              <li>
-                <Link href="/admin" className="hover:underline px-11">
+              <li style={{ left: '84%' }}>
+                <Link href="/admin" className="hover:underline">
                   Settings
                 </Link>
               </li>
@@ -110,9 +82,16 @@ export default function HomeNavBar({
             <div>
               <ProfileAvatar picture_url={picture_url} name={user_name} />
             </div>
-            <div className=" text-white">
+            <div className="text-white">
               <Link href="/api/auth/logout">
-                <button className="text-white font-bold text-md p-2 min-w-[90px] rounded-md bg-[#EC0B5C] hover:bg-[#6c9096] shadow  hover:text-gray-100 transition duration-500">
+                <button
+                  className="text-white font-bold text-md p-2 min-w-[90px] rounded-md"
+                  style={{
+                    background: 'linear-gradient(90deg, #3864B3 0%, #2F5597 31%, #EC73FF 83%)',
+                    boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+                    transition: 'background 0.3s ease',
+                  }}
+                >
                   Sign out
                 </button>
               </Link>

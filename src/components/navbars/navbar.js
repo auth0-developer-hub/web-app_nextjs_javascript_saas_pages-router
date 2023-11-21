@@ -17,9 +17,8 @@ export default function NavBar() {
 
         {/* Mobile Menu */}
         <div
-          className={` w-1/3 items-start flex flex-col  ${
-            mobileView ? "block" : "hidden"
-          }`}
+          className={` w-1/3 items-start flex flex-col  ${mobileView ? "block" : "hidden"
+            }`}
         >
           <ul className="">
             <li>
@@ -58,9 +57,8 @@ export default function NavBar() {
 
         {/* Regular Menu */}
         <ul
-          className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2
-        lg:flex lg:items-center lg:w-auto lg:space-x-6
-        md:flex md:items-center md:w-auto md:space-x-6"
+          className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:items-center lg:w-auto lg:space-x-6 md:flex md:items-center md:w-auto md:space-x-6"
+          style={{ left: '23%' }}
         >
           <div className="flex gap-6">
             {/* Center Links */}
@@ -74,7 +72,6 @@ export default function NavBar() {
                 Customers
               </Link>
             </li>
-
             <li>
               <Link href="/" className="hover:underline">
                 About us
@@ -82,21 +79,43 @@ export default function NavBar() {
             </li>
           </div>
         </ul>
+
         <div className="space-x-4 hidden md:inline lg:inline">
           <Link href="/orgprompt">
-            <span className="text-[#EC0B5C] font-bold text-md p-2 min-w-[90px] rounded-md">
+            <span
+              className="text-white font-barlow text-md p-2 min-w-[90px]"
+              style={{
+                background: 'linear-gradient(90deg, #3864B3 0%, #2F5597 31%, #EC73FF 83%)',
+                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+                transition: 'background 0.3s ease',
+              }}
+            >
               Organizations
             </span>
           </Link>
 
           <Link href="/api/auth/login?returnTo=/home">
-            <span className="text-[#EC0B5C] font-bold text-md p-2 min-w-[90px] rounded-md">
+            <span
+              className="text-white font-barlow text-md p-2 min-w-[90px]"
+              style={{
+                background: 'linear-gradient(90deg, #3864B3 0%, #2F5597 31%, #EC73FF 83%)',
+                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+                transition: 'background 0.3s ease',
+              }}
+            >
               Login
             </span>
           </Link>
 
           <Link href="/api/auth/signup">
-            <button className="text-white font-bold text-md p-2 min-w-[90px] rounded-md bg-[#EC0B5C] hover:bg-[#6c9096] shadow  hover:text-gray-100 transition duration-500">
+            <button
+              className="text-white font-barlow font-medium text-md p-2 min-w-[90px]"
+              style={{
+                background: 'linear-gradient(90deg, #3864B3 0%, #2F5597 31%, #EC73FF 83%)',
+                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+                transition: 'background 0.3s ease',
+              }}
+            >
               Start Free Trial
             </button>
           </Link>
